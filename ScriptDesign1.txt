@@ -1,0 +1,47 @@
+# Keeps Redisplaying a Directory Tree
+# Author Dale Macdonald (2018)
+@echo off
+SET ROOT_FOLDER=E:\git_repos\LocalLinsiLAPBench\.git
+:loop
+	
+	cls
+	tree %ROOT_FOLDER% /F 
+        echo
+	echo Root Folder = %ROOT_FOLDER%
+	echo Waiting...
+	sleep 10
+goto loop
+
+
+
+=============================================================
+
+# Keeps Redisplaying a git log (Livelog)
+# Author Dale Macdonald (2018)
+@echo off
+
+:loop
+	cls 
+    git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $* 
+    sleep 1 
+
+goto loop
+
+============================================================================
+
+Bash:
+
+
+while : 
+do 
+    clear 
+     git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $* 
+     sleep 1 
+done 
+
+
+
+
+#!/bin/bash    
+
+watch --color

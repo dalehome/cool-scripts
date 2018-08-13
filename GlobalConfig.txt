@@ -1,0 +1,45 @@
+[http]
+[user]
+	name = DTM
+	email = dale_macdonald@hotmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = matching
+[gui]
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\U0089863\\Documents\\gitignore_global.txt
+	preloadindex = true
+	fscache = true
+	editor = 'c:/program files/sublime text 3/subl.exe' -w
+	
+[branch]
+	autosetuprebase = always
+[gui]
+[gui]
+	recentrepo = E:/git_repos/LocalLinsiLAPBench
+[alias]
+	st = status
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
+	lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+	ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+
+	cf = cat-file
+[gc]
+	auto = 256
+	
+[diff]
+	tool = meld
+[difftool "meld"]
+	cmd = /c/Progra~2/Meld/meld.exe $LOCAL $REMOTE
+    prompt = false
+[mergetool "meld"]
+	cmd = /c/Progra~2/Meld/meld.exe $LOCAL $BASE $REMOTE
+	prompt = false 
+[merge]
+	tool = meld

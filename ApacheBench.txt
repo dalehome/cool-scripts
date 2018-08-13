@@ -1,0 +1,29 @@
+!/bin/bash
+#
+# Author - Dale Madonald (2018)
+#
+# Use number of requests parameter or default 50
+numb=${1:-50}
+echo $numb is number!!
+# Use concurrency parameter or default 1
+conc=${2:-1}
+# Default outputfile
+FILE=$HOME/benchmarks.txt
+#Execute Apache Bench
+ab -c $conc -n $numb -i -X internetproxy.int.thomsonreuters.com:8080 http://lap-dev.tr-corporate-nonprod.aws-int.thomsonreuters.com/ | tee -a $FILE
+echo -en '\n'
+echo ====================================================================================================
+echo -en '\n'
+#
+#
+#
+#  ab -c 1 -n 50 -i -X internetproxy.int.thomsonreuters.com:8080 	
+#
+# ab is "apache bench" which can be used for benchmarking webserver connectivity
+#
+# -c :  Concurrency - How many requests at a time (default = 1)
+# -n :  Number of requests (default = 1)
+# -i :  Do HEAD requests instead of GET
+# -X :   Use a proxy server for the requests
+#
+# Installed (on Red Hat/Oracle):   yum install httpd-tools -y

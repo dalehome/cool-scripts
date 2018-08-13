@@ -1,0 +1,22 @@
+while : 
+do 
+    clear 
+     git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $* 
+     sleep 1 
+done 
+
+
+
+
+#!/bin/bash    
+
+watch --color "git --no-pager log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all -20"
+
+
+
+
+:loop
+
+echo Ooops
+
+goto loop

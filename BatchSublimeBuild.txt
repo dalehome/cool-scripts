@@ -1,0 +1,10 @@
+{
+  "cmd": ["cmd /C","$file"],
+  "working_dir": "$project_path",
+  "windows" : {
+      "shell": true
+  }
+}
+
+
+# C:\Users\U0089863\AppData\Roaming\Sublime Text 3\Packages\User

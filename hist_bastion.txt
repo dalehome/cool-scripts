@@ -1,0 +1,111 @@
+    1  python --version
+    2  npm --version
+    3  npm --version
+    4  history
+    5  npm update
+    6  npm --version
+    7  pip version
+    8  pip --version
+    9  aws --version
+   10  awscli --version
+   11  pip install awscli
+   12  pip --version
+   13  pip install pip==9.0.1
+   14  python.exe -m pip install pip==9.0.1
+   15  pip --version
+   16  aws --version
+   17  history
+   18  pip install awscli
+   19  aws --version
+   20  aws configure
+   21  pip install awscli --upgrade --user
+   22  aws --version
+   23  which aws
+   24  which aws | grep python
+   25  which aws | grep python
+   26  aws --version
+   27  awscli --version
+   28  python aws 
+   29  pip install --user virtualenv
+   30  virtualenv ~/cli-ve
+   31  echo $PATH
+   32  which explorer
+   33  PATH=/cygdrive/c/Users/U0089863/AppData/Roaming/Python/Python27/site-packages/:$PATH
+   34  aws --version
+   35  echo $PATH
+   36  PATH=/cygdrive/c/Users/U0089863/AppData/Roaming/Python/Python27/site-packages/awscli:$PATH
+   37  echo $PATH
+   38  virtualenv -version
+   39  echo $PYTHONPATH
+   40  which gcc
+   41  which openssh
+   42  which ssh
+   43  which easy_install
+   44  easy_install virtualenv
+   45  which virtualenv
+   46  echo $PATH
+   47  easy_install virtualenvwrapper
+   48  which virtualenvwrapper
+   49  easy_install awscli
+   50  aws --version
+   51  virtualenv ~/cli-ve
+   52  source ~/cli-ve/bin/activate
+   53  %USERPROFILE%\cli-ve\Scripts\activate
+   54  source ~/cli-ve/Scripts/activate
+   55  less ~/cli-ve/Scripts/activate
+   56  source /cygdrive/c/windows/system32/config/systemprofile/cli-ve/Scripts/activate
+   57  less /cygdrive/c/windows/system32/config/systemprofile/cli-ve/Scripts/activate
+   58  less /cygdrive/c/windows/system32/config/systemprofile/
+   59  ls /cygdrive/c/windows/system32/config/systemprofile/
+   60  less /cygdrive/c/windows/system32/config/systemprofile/
+   61  less c/cygdrive/c/windows/system32/config/systemprofile/
+   62  echo %USERPROFILE%
+   63  echo $USERPROFILE
+   64  echo ~
+   65  virtualenv ~/cli-ve
+   66  less  C:\cygdrive\c\windows\system32\config\systemprofile\cli-ve\Scripts\
+   67  ls  C:\cygdrive\c\windows\system32\config\systemprofile\cli-ve\Scripts;
+   68  less C:/cygdrive/c/windows/system32/config/systemprofile/cli-ve/Scripts/activate
+   69  source C:/cygdrive/c/windows/system32/config/systemprofile/cli-ve/Scripts/activate
+   70  pwd
+   71  ls -la
+   72  pip install --upgrade awscli
+   73  aws --version
+   74  which aws
+   75  aws --version
+   76  cloudtool --version
+   77  cloud-tool --version
+   78  cloud-tool
+   79  git log
+   80  git log --pretty-online
+   81  git log --pretty=online
+   82  git log --oneline
+   83  git log --oneline --decorate --graph --all
+   84  git tag --help
+   85  git tag
+   86  git tag bc9242 rollback
+   87  git tag rollback bc9242 
+   88  git log --oneline --decorate --graph --all
+   89  git checkout rollback
+   90  git log --oneline --decorate --graph --all
+   91  git reset
+   92  git log --oneline --decorate --graph --all
+   93  git checkout 4ee98
+   94  git log --oneline --decorate --graph --all
+   95  pwd
+   96  cd ..
+   97  bams_url=https://bams-sami.int.thomsonreuters.com/artifactory/api/pypi/default.pypi.global/simple
+   98  pip install --upgrade --extra-index-url $bams_url cloud-tool
+   99  cloud-tool --region eu-west-1 --profile tr-corporate-prod bastion-get-key
+  100  cloud-tool --profile tr-corporate-prod ssh --name 204394-ec2-lap-prod-agp
+  101  cloud-tool --region eu-west-1 --profile tr-corporate-prod bastion-get-key
+  102  cloud-tool --profile tr-corporate-prod ssh --name 204394-ec2-lap-prod-agp
+  103  cloud-tool --region eu-west-1 login --role human-role/204394-PowerUser --account-id 304853478528
+  104  cd ..
+  105  ls
+  106  cloud-tool --region eu-west-1 --profile tr-corporate-prod bastion-get-key
+  107  cloud-tool --profile tr-corporate-prod ssh --name 204394-ec2-lap-prod-agp
+  108  cloud-tool --region eu-west-1 --profile tr-corporate-prod bastion-get-key
+  109  cloud-tool --profile tr-corporate-prod ssh --name 204394-ec2-lap-prod-agp
+  110  history 
+  111  history  > hist_bastion.txt
