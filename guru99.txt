@@ -1,0 +1,7 @@
+LockHunter
+
+https://github.com/vigente/gerardus/wiki/Integrate-git-diffs-with-word-docx-files
+
+licencebule.txt :   C:\Program Files\Git\mingw64\share\git-core\templates
+
+
