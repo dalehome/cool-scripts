@@ -1,7 +1,18 @@
 LockHunter
 
 
-Great Watch function to see filesizes grow
+Great Watch function to see filesizes grow:  watch -n1 'du -scm * | sort -nr | head'
+
+
+Another cool one: find ./photos/ -type f -name '*.jpg' -exec du -ch {} + | grep total$
+
+
+
+
+
+
+
+
 
 
 https://github.com/vigente/gerardus/wiki/Integrate-git-diffs-with-word-docx-files
@@ -46,3 +57,25 @@ OO Dev:       :  https://www.youtube.com/watch?v=pMGY9ViIGNU
 
 
 Becoming a GIT Master: https://www.youtube.com/watch?v=-kVzV6m5_Qg
+
+
+
+
+===============================================================================
+
+
+Docker commands (192.168.99.100)
+===============
+
+docker version
+docker info
+docker ps -a
+docker inspect <hash>
+docker images
+
+docker container run --publish 80:80 nginx
+
+
+docker-engine version
+docker-machine env default
+docker-compose version
