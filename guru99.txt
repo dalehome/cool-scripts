@@ -1,5 +1,9 @@
 LockHunter
 
+
+Great Watch function to see filesizes grow
+
+
 https://github.com/vigente/gerardus/wiki/Integrate-git-diffs-with-word-docx-files
 
 licencebule.txt :   C:\Program Files\Git\mingw64\share\git-core\templates
@@ -25,4 +29,20 @@ https://www.youtube.com/watch?v=ig5E8CcdM9g
 
 https://www.youtube.com/watch?v=dBSHLb1B8sw
 
-https://youtu.be/FyAAIHHClqI
+
+
+=========================================================
+
+Jessica Kerr
+============
+
+Git Happens   :  https://www.youtube.com/watch?v=Dv8I_kfrFWw&t=2136s
+
+Git Happens 2 :  https://www.youtube.com/watch?v=yCh6TSLIQBQ
+
+OO Dev:       :  https://www.youtube.com/watch?v=pMGY9ViIGNU
+
+
+
+
+Becoming a GIT Master: https://www.youtube.com/watch?v=-kVzV6m5_Qg
