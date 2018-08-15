@@ -42,6 +42,7 @@ https://www.youtube.com/watch?v=dBSHLb1B8sw
 
 
 
+
 =========================================================
 
 Jessica Kerr
@@ -79,3 +80,23 @@ docker container run --publish 80:80 nginx
 docker-engine version
 docker-machine env default
 docker-compose version
+=======
+https://youtu.be/FyAAIHHClqI
+
+
+Three additional items
+======================
+
+ttps://en.wikipedia.org/wiki/World_Chess_Championship_1972#Game_3:_Spassky–Fischer,_0–1_(Modern_Benoni)
+
+Git branch/merge Strategies: https://www.youtube.com/watch?v=to6tIdy5rNc&t=326s
+
+Visual GIT:  https://marklodato.github.io/visual-git-guide/index-en.html
+
+
+Two more
+========
+
+https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
+
+http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
