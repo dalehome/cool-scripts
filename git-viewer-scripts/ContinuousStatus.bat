@@ -1,4 +1,4 @@
-# Keeps Redisplaying a Directory Tree
+# Keeps Redisplaying a repo's git status
 # Author Dale Macdonald (2018)
 @echo off
 SET ROOT_FOLDER=C:\git-repos\cool-scripts\
